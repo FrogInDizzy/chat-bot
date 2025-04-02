@@ -1,0 +1,16 @@
+[env]
+env = "pro"
+is_debug = false # 针对特殊用途进行控制,例如调试模式下指定路径之类的
+[project_info]
+hi = 'world_pro'
+server_url = "127.0.0.1:8000/books"
+app_id = ""
+app_secret = ""
+encryption_key = ""
+verification_token = ""
+help_card_template_id=''
+
+a=['hi','world','.']
+port=13235
+#first_card_auth=true # 第一次卡片授权回调的验证
+first_card_auth=false
