@@ -10,27 +10,27 @@ This suite provides:
 - **Asynchronous Processing**: Ensures efficient and responsive communication.
 
 ## Features
-### 🚀 Feishu Chatbot Integration
+### Feishu Chatbot Integration
 - Receives messages from Feishu users.
 - Supports text, images, and interactive card messages.
 - Utilizes Feishu OpenAPI for authentication and messaging.
 
-### 🤖 AI-Powered Response System
+### AI-Powered Response System
 - Uses **GPT-3.5-Turbo** (configurable) for generating intelligent responses.
 - Supports **customizable temperature settings** for response creativity.
 - Retries failed API calls with **automatic token refreshing**.
 
-### 🔄 Dynamic Configuration Management
+### Dynamic Configuration Management
 - Uses **interactive message cards** to allow users to change chatbot settings on the fly.
 - Stores user preferences, including model choice and chat settings.
 
-### ⏳ Robust Error Handling & Logging
+### Robust Error Handling & Logging
 - Implements **retry mechanisms** for failed API requests.
 - Logs all chatbot interactions for debugging and analytics.
 
 ## Project Structure
 ```
-📂 intelligent-chatbot-suite
+intelligent-chatbot-suite
  ├── app_relevant/                 # Core chatbot functionalities
  │   ├── lark_msg_sender.py        # Sends replies via Feishu API
  │   ├── one_api_answer.py         # Handles AI responses from GPT
@@ -94,13 +94,13 @@ This suite provides:
 - Secure API requests using **Bearer Token Authentication**.
 
 ## Extending the Project
-### 🔧 Adding New AI Models
+### Adding New AI Models
 Modify `one_api_answer.py`:
 ```python
 "model_name": "gpt-4"
 ```
 
-### 🎨 Customizing Response Behavior
+### Customizing Response Behavior
 Update `reply_message` in `main.py`:
 ```python
 qq = {
@@ -111,15 +111,15 @@ qq = {
 }
 ```
 
-### 📌 Adding More Message Types
+### Adding More Message Types
 Modify `lark_msg_sender.py` to handle images, attachments, or buttons.
 
 ## Troubleshooting
-### ❓ Bot Not Responding
+### Bot Not Responding
 - Check Feishu webhook and credentials.
 - Verify logs in `logs/` directory.
 
-### 🔄 Token Expired
+### Token Expired
 - Restart the bot (`python main.py`).
 - Ensure `TokenManager` is correctly refreshing tokens.
 
