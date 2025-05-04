@@ -123,5 +123,4 @@ Modify `lark_msg_sender.py` to handle images, attachments, or buttons.
 - Restart the bot (`python main.py`).
 - Ensure `TokenManager` is correctly refreshing tokens.
 
-## License
 MIT License © 2025 
