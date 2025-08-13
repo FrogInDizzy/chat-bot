@@ -5,7 +5,7 @@ The **Intelligent Chatbot Suite** is a robust and scalable chatbot system design
 
 This suite provides:
 - **Feishu (Lark) Message Handling**: Process and reply to messages from Feishu users.
-- **AI-Powered Responses**: Uses GPT models (e.g., `gpt-3.5-turbo`) for intelligent chatbot responses.
+- **AI-Powered Responses**: Uses GPT models (e.g., `gpt-4o`) for intelligent chatbot responses.
 - **Configurable Message Cards**: Dynamically update chat settings using interactive message cards.
 - **Asynchronous Processing**: Ensures efficient and responsive communication.
 
