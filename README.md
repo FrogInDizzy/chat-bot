@@ -16,7 +16,7 @@ This suite provides:
 - Utilizes Feishu OpenAPI for authentication and messaging.
 
 ### AI-Powered Response System
-- Uses **GPT-3.5-Turbo** (configurable) for generating intelligent responses.
+- Uses **OpenAI API** (configurable) for generating intelligent responses.
 - Supports **customizable temperature settings** for response creativity.
 - Retries failed API calls with **automatic token refreshing**.
 
